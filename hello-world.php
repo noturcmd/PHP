@@ -8,19 +8,15 @@
 </head>
 
 <body>
-    <?php
-        echo "Hello, World!<br>";
-    ?>
-
     <script>
     "use strict";
 
-    function callMyName() {
-        name = "Ridwan";
+    function callName() {
+        myName = "Ridwan";
     }
 
-    callMyName()
-    console.log(name);
+    callName();
+    console.log(myName);
     </script>
 </body>
 
