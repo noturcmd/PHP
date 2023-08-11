@@ -9,8 +9,19 @@
 
 <body>
     <?php
-        echo "Hello, World!";
+        echo "Hello, World!<br>";
     ?>
+
+    <script>
+    "use strict";
+
+    function callMyName() {
+        name = "Ridwan";
+    }
+
+    callMyName()
+    console.log(name);
+    </script>
 </body>
 
 </html>
